@@ -1,12 +1,15 @@
 import seedrandom from 'seedrandom';
 import RenderData from './Data.js';
 
+var numIngredients = 4;
+
 class RecipeData {
     Id;
     Relation;
     Name;
     Modifier;
     MainIngredient;
+    SecondaryIngredients;
     Thing;
 
     Ingredients;
@@ -26,18 +29,28 @@ class RecipeData {
 
         this.Modifier = rng.chooseList(RenderData.Modifiers);
         this.MainIngredient = rng.chooseList(RenderData.MainIngredients);
+        this.SecondaryIngredients = rng.chooseN(RenderData.SecondaryIngredients, numIngredients);
         this.Thing = rng.chooseList(RenderData.Things);
 
 
         this.Ingredients = [
             this.MainIngredient.i
         ];
+        for (var j=0; j < this.SecondaryIngredients.length; j++) {
+	        this.Ingredients.push(this.SecondaryIngredients[j].i);
+        }
+        if(this.Thing.extraIngredient != null){
+	        this.Ingredients.unshift(this.Thing.extraIngredient);
+        } 
 
-        this.Steps = [
-            this.Thing.firstStep,
-            this.MainIngredient.s,
-            this.Thing.lastStep
-        ];
+		this.Steps = [];
+		
+		// if there is a first step...
+		if(this.Thing.firstStep != null){
+			this.Steps.unshift(this.Thing.firstStep);
+		}
+		this.Steps.push(this.MainIngredient.s + this.SecondaryIngredients[0].n + ".");
+		this.Steps.push(this.Thing.lastStep);        
     }
 }
 

@@ -31,7 +31,7 @@ class Recipe extends Component {
         return (
             <div>
                 <div>Recipe ID {r.Id}</div>
-                <div className='recipeTitle'>{r.Relation} {r.Name} {r.Modifier} {r.MainIngredient.n} {r.Thing.n}!</div>
+                <div className='recipeTitle'>{r.Relation} {r.Name} {r.Modifier} {r.MainIngredient.n} {r.Thing.n}</div>
                 <div className='ingredients'>
                     Ingredients: <br/>
                     {ingredients}  
