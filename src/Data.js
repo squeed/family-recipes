@@ -912,7 +912,15 @@ var RenderData = {
             firstStep: "Cut the veal into thin steaks.",
             lastStep: "Coat the veal with entire mixture, then fry in 1/4 c oil until golden brown and crispy, about 5 minutes on each side.",
             extraIngredient: "2 lbs veal"
-        },
+        },{
+            n: "Tacos",
+            lastStep: "Spoon the filling into tortillas. Top with tomato salsa if desired.",
+            extraIngredient: "8 flour tortillas"
+        },{
+            n: "Burritos",
+            lastStep: "Spoon the filling into tortillas and wrap tightly. Top with tomato salsa if desired.",
+            extraIngredient: "8 flour tortillas"
+        }
     ]
 };
 export default RenderData;
