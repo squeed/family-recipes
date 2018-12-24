@@ -1,15 +1,15 @@
 var RenderData = {
     Relations: {
         male: [ "Uncle", "Papa", "Father", "Ol'", "Big", "Great-uncle", "Grandpa", "Little"],
-        female: ["Auntie", "Aunt", "Great-aunt", "Grammy", "Big", "Nana", "Grandma", "Mama", "Sister", "Little"]
+        female: ["Auntie", "Aunt", "Great-aunt", "Grammy", "Big", "Nana", "Grandma", "Mama", "Sister", "Little", "Mama"]
     },
 
     Names:  {
         male: [
-            "Nunzio's", "Gunther's", "Bobby's", "Jimbo's", "Casey's", "Peter's", "Walter's", "Mickey's", "Phil's", "Pablo's", "Skippy's", "Vito's", "Ray's", "Tony's", "Chippy's", "George's", "Nicky's", "Emerson's", "Red's", "Jimmy's", "Tom's", "Dieter's", "Hans'", "Jürgen's"
+            "Nunzio's", "Gunther's", "Bobby's", "Jimbo's", "Casey's", "Peter's", "Walter's", "Mickey's", "Phil's", "Pablo's", "Skippy's", "Vito's", "Ray's", "Tony's", "Chippy's", "George's", "Nicky's", "Emerson's", "Fred's", "Jimmy's", "Tom's", "Dieter's", "Hans'", "Jürgen's", "Shlomo's", "Bruce's"
         ],
         female: [
-            "Fiona's", "Dagmar's", "Molly's", "Alanna's", "Betsy's", "Doris'", "Jacqueline's", "Emmy's", "Eleanor's", "Clementine's", "Yolanda's", "Anne's", "Gina's", "Dotty's", "Brady's", "Lottie's", "Mitzi's", "Trudy's", "Babette's", "Kitty's", "Rosie's", "Wendy's"
+            "Fiona's", "Dagmar's", "Molly's", "Alanna's", "Betsy's", "Doris'", "Jacqueline's", "Emma's", "Eleanor's", "Clementine's", "Yolanda's", "Anne's", "Gina's", "Dotty's", "Brady's", "Lottie's", "Mitzi's", "Trudy's", "Babette's", "Kitty's", "Rosie's", "Wendy's", "Bernadette's", "Betty's", "Sally's"
         ]
     },
 
@@ -90,10 +90,6 @@ var RenderData = {
             i: "2 c barbeque sauce",
             s: "In a large bowl, drizzle barbeque sauce over "
         },{
-            n: "Barbeque", 
-            i: "2 c barbeque sauce",
-            s: "In a large bowl, drizzle barbeque sauce over "
-        },{
             n: "Beef", 
             i: "4 lb beef tenderloin",
             s: "In a roasting pan, coat beef tenderloin in "
@@ -146,7 +142,7 @@ var RenderData = {
             i: "8 oz frozen cranberries",
             s: "Thaw the cranberries under warm running water. Mix with "
         },{
-            n: "Pineapple", 
+            n: "Hawaiian", 
             i: "1 can pineapple",
             s: "Drain the pineapple, then combine in a large bowl with "
         },{
@@ -155,14 +151,14 @@ var RenderData = {
             s: "Pour the molasses into a large bowl, then mix with "
         },{
             n: "Mexican", 
-            i: "1 c mild salsa",
+            i: "1 c pico de gallo",
             s: "Mix the salsa with the "
         },{
             n: "Turkey", 
             i: "1 lb ground turkey",
             s: "Brown the turkey over medium heat in a large frying pan. Add the "
         },{
-            n: "Whiskey", 
+            n: "Kentucky", 
             i: "12 oz bourbon whiskey",
             s: "Pour the whiskey into a large pitcher. Stir in "
         },{
@@ -185,6 +181,22 @@ var RenderData = {
             n: "Couscous", 
             i: "3 c couscous",
             s: "Bring 6 c water to a boil. Stir in couscous, cover, and remove from heat. Let the mixture stand for 4 minutes and transfer it to a ceramic or glass bowl, breaking up any lumps with a fork and adding "
+        },{
+            n: "Peach", 
+            i: "3-4 ripe peaches",
+            s: "Wash the peaches, remove pits, and cut into chunks. Combine with "
+        },{
+            n: "Wasabi", 
+            i: "2 tbsp wasabi",
+            s: "Put the wasabi in a medium-size bowl, and mix thoroughly with "
+        },{
+            n: "Marzipan", 
+            i: "6 oz marzipan",
+            s: "In a large bowl, thoroughly combine marzipan with "
+        },{
+            n: "Rhubarb", 
+            i: "1 lb rhubarb, cut into 3/4\" pieces",
+            s: "In a medium bowl, toss rhubarb pieces with "
         },
         
     ],
@@ -297,7 +309,7 @@ var RenderData = {
 		    i: "1 8-oz package of frozen spinach"
 	    },{
 		    n: "potatoes",
-		    i: "2 lbs potatoes"
+		    i: "2 lbs potatoes, cut into wedges"
 	    },{
 		    n: "rum",
 		    i: "1/2 c rum"
@@ -403,6 +415,15 @@ var RenderData = {
 	    },{
 		    n: "milk",
 		    i: "2 c milk"
+	    },{
+		    n: "skim milk",
+		    i: "1/2 c skim milk"
+	    },{
+		    n: "mascarpone",
+		    i: "8 oz mascarpone"
+	    },{
+		    n: "goat cheese",
+		    i: "8 oz goat cheese"
 	    },{
 		    n: "butter",
 		    i: "1 1/4 sticks butter"
@@ -544,15 +565,48 @@ var RenderData = {
 	    },{
 		    n: "pepper",
 		    i: "1 tsp ground black pepper"
-	    }
+	    },{
+		    n: "carrots",
+		    i: "1/2 c shredded carrots"
+	    },{
+		    n: "currants",
+		    i: "1/4 cup dried black currants"
+	    },{
+		    n: "orange soda",
+		    i: "2 c orange soda"
+	    },{
+		    n: "chocolate sauce",
+		    i: "2 tbsp chocolate sauce"
+	    },{
+		    n: "quinoa",
+		    i: "1 c quinoa"
+	    },
 	    
     ],
     
     Instructions: [
 		"Mix in %s and %s.",
 		"Slowly drizzle in the %s and %s.",
-        "In a separate bowl, mash %s and %s together with a fork, then fold in.",
-		"Stirring constantly to prevent clumps, slowly add in the %s before the %s.",
+        "In a separate bowl, mash %s and %s together with a fork, then fold together.",
+		"Stirring constantly to prevent clumps, slowly add %s to %s.",
+		"Mash together %s and %s.",
+		"Add %s to %s, and stir to coat.",
+		"Pour %s and %s into a saucepan, and bring to a boil.",
+		"Add the %s and %s, stirring frequently.",
+		"Combine %s and %s.",
+		"Combine %s and %s, scraping the bowl with a spatula.",
+		"Mix %s and %s on high speed for 1-2 minutes.",
+		"Saute %s with %s over medium heat until fragrant.",
+		"Fry %s in butter until golden brown, then add %s.",
+		"Gently combine %s and %s.",
+		"Quickly mix %s with %s.",
+		"Pour %s over %s and let stand 10 minutes.",
+		"Knead together %s and %s, cover with plastic wrap, and refrigerate for at least 1 hour.",
+		"Whisk together %s and %s.", 
+		"Slowly stir %s into %s.",
+		"Stirring constantly, saute %s and %s until translucent.",
+		"Simmer %s and %s in a small saucepan until most of the liquid is gone.",
+		"Mix %s and %s well, and allow to sit overnight.",
 		//"Over medium heat, add ",
 		//"Beat in ",
 		"Sauté with %s over high heat. When browned, deglaze with %s.",

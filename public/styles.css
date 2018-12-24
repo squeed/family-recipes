@@ -31,23 +31,20 @@ body {
   display: block; }
 
 .recipe-wrapper .recipe-title {
-  font-family: "Sacramento", cursive;
+  font-family: "Special Elite", serif;
   padding-bottom: .4em; }
 
-.recipe-wrapper .ingredients-wrapper {
-  border-top: 1px solid #787268;
-  border-bottom: 1px solid #787268; }
-  .recipe-wrapper .ingredients-wrapper ul {
-    list-style-type: square;
-    padding: 0 1em; }
-    .recipe-wrapper .ingredients-wrapper ul li {
-      padding: .1em 0; }
+.recipe-wrapper .ingredients-wrapper ul {
+  list-style-type: square;
+  padding: 0 1em; }
+  .recipe-wrapper .ingredients-wrapper ul li {
+    padding: .1em 0; }
 
 .recipe-wrapper .recipe ol {
   padding: 0 1em; }
   .recipe-wrapper .recipe ol li {
     padding: 0.2em 0 0.2em 0;
-    line-height: 1.3em; }
+    line-height: 1.5em; }
 
 .button {
   background-color: #f69712;
