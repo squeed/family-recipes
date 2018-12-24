@@ -920,6 +920,12 @@ var RenderData = {
             n: "Burritos",
             lastStep: "Spoon the filling into tortillas and wrap tightly. Top with tomato salsa if desired.",
             extraIngredient: "8 flour tortillas"
+        },{
+            n: "Dip",
+            lastStep: "Mix all ingredients until smooth and creamy. Serve with chips and vegetables for dipping."
+        },{
+            n: "Spread",
+            lastStep: "Mix all ingredients well until smooth and creamy. Spread on crackers. Can be made up to 3 days ahead."
         }
     ]
 };
