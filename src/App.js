@@ -22,23 +22,27 @@ class Recipe extends Component {
         let r=this.props.recipe;
 
         let ingredients = r.Ingredients.map((ing, idx) => 
-            <div className='ingredient' key={idx}>{ing}</div>
+            <li className='ingredient' key={idx}>{ing}</li>
         );
 
         let steps = r.Steps.map((s, i) =>
             <li className='step' key={i}>{s}</li>
         );
         return (
-            <div>
-                <div>Recipe ID {r.Id}</div>
-                <div className='recipeTitle'>{r.Relation} {r.Name} {r.Modifier} {r.MainIngredient.n} {r.Thing.n}</div>
-                <div className='ingredients'>
-                    Ingredients: <br/>
-                    {ingredients}  
+            <div className='recipe-wrapper'>
+                
+                <div className='recipe-title'>{r.Relation} {r.Name} {r.Modifier} {r.MainIngredient.n} {r.Thing.n}</div>
+                <div className='ingredients-wrapper'>
+                    <ul>
+                                        {ingredients}  
+
+                    </ul>
                 </div>
+                <div className='recipe'>
                 <ol className = 'steps'>
                     {steps}
                 </ol>
+                </div>
             </div>
         );
     }
