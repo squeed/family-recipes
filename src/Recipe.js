@@ -2,7 +2,7 @@ import seedrandom from 'seedrandom';
 import RenderData from './Data.js';
 import sprintf from 'sprintf-js';
 
-var numIngredients = 6;
+var numIngredients = 5;
 
 class RecipeData {
     Id;
@@ -28,15 +28,12 @@ class RecipeData {
         let names = male ? RenderData.Names.male : RenderData.Names.female;
         this.Name = rng.chooseList(names);
 
-
         this.Modifier = rng.chooseList(RenderData.Modifiers);
         this.MainIngredient = rng.chooseList(RenderData.MainIngredients);
         this.SecondaryIngredients = rng.chooseN(RenderData.SecondaryIngredients, numIngredients);
         this.Instructions = rng.chooseN(RenderData.Instructions, (numIngredients / 2) - 1);
         
         this.Thing = rng.chooseList(RenderData.Things);
-        
-
 
         this.Ingredients = [
             this.MainIngredient.i
@@ -44,9 +41,6 @@ class RecipeData {
         for (let i=0; i < this.SecondaryIngredients.length; i++) {
             this.Ingredients.push(this.SecondaryIngredients[i].i);
         }
-        if(this.Thing.extraIngredient != null){
-            this.Ingredients.unshift(this.Thing.extraIngredient);
-        } 
 
         this.Steps = [];
         
@@ -54,14 +48,21 @@ class RecipeData {
         if(this.Thing.firstStep != null){
             this.Steps.unshift(this.Thing.firstStep);
         }
+
         this.Steps.push(this.MainIngredient.s + this.SecondaryIngredients[0].n + ".");
         for(let i = 0; i < this.Instructions.length; i++){
             this.Steps.push(sprintf.sprintf(
                 this.Instructions[i],
-                this.SecondaryIngredients[(i*2)+2].n,
-                this.SecondaryIngredients[(i*2)+3].n));
+                this.SecondaryIngredients[(i*2)+1].n,
+                this.SecondaryIngredients[(i*2)+2].n));
         }
+
         this.Steps.push(this.Thing.lastStep);
+
+        // Don't want to choose this as part of the step rendering
+        if(this.Thing.extraIngredient != null){
+            this.Ingredients.unshift(this.Thing.extraIngredient);
+        } 
     }
 }
 

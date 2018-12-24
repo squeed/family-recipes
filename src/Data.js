@@ -510,7 +510,7 @@ var RenderData = {
 		    i: "1/2 c white chocolate chips"
 	    },{
 		    n: "ground turkey",
-		    i: "1/2 c white chocolate chips"
+		    i: "20 oz ground turkey"
 	    },{
 		    n: "figs",
 		    i: "1 c chopped figs"
