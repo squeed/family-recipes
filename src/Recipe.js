@@ -10,6 +10,7 @@ class RecipeData {
     Modifier;
     MainIngredient;
     SecondaryIngredients;
+    Instructions;
     Thing;
 
     Ingredients;
@@ -30,7 +31,10 @@ class RecipeData {
         this.Modifier = rng.chooseList(RenderData.Modifiers);
         this.MainIngredient = rng.chooseList(RenderData.MainIngredients);
         this.SecondaryIngredients = rng.chooseN(RenderData.SecondaryIngredients, numIngredients);
+        this.Instructions = rng.chooseN(RenderData.Instructions, numIngredients);
+        
         this.Thing = rng.chooseList(RenderData.Things);
+        
 
 
         this.Ingredients = [
@@ -50,6 +54,9 @@ class RecipeData {
 			this.Steps.unshift(this.Thing.firstStep);
 		}
 		this.Steps.push(this.MainIngredient.s + this.SecondaryIngredients[0].n + ".");
+		for(var k = 0; k < this.SecondaryIngredients.length; k++){
+			this.Steps.push(this.Instructions[k] + " " + this.SecondaryIngredients[k].i + ".")
+		}
 		this.Steps.push(this.Thing.lastStep);        
     }
 }

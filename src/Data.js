@@ -1,15 +1,15 @@
 var RenderData = {
     Relations: {
-        male: [ "Uncle", "Papa", "Father", "Big", "Opa", "Great-uncle", "Grandpa", "Little"],
-        female: ["Auntie", "Great-aunt", "Big", "Nana", "Oma", "Grandma", "Sister", "Little"]
+        male: [ "Uncle", "Baba", "Papa", "Father", "Big", "Great-uncle", "Grandpa", "Little"],
+        female: ["Auntie", "Aunt", "Great-aunt", "Grammy", "Big", "Nana", "Grandma", "Mama", "Sister", "Little"]
     },
 
     Names:  {
         male: [
-            "Nunzio's", "Gunther's", "Bobby's", "Jimbo's", "Casey's", "Peter's", "Walter's", "Mickey's", "Phil's", "Pablo's", "Skippy's", "Vito's", "Ray's"
+            "Nunzio's", "Gunther's", "Bobby's", "Jimbo's", "Casey's", "Peter's", "Walter's", "Mickey's", "Phil's", "Pablo's", "Skippy's", "Vito's", "Ray's", "Tony's", "Chippy's", "George's", "Nicky's", "Emerson's", "Red's", "Jimmy's", "Tom's"
         ],
         female: [
-            "Fiona's", "Dagmar's", "Molly's", "Alanna's", "Betsy's", "Doris'", "Jacqueline's", "Emmy's", "Eleonor's", "Clementine's", "Yolanda's"
+            "Fiona's", "Dagmar's", "Molly's", "Alanna's", "Betsy's", "Doris'", "Jacqueline's", "Emmy's", "Eleanor's", "Clementine's", "Yolanda's", "Anne's", "Gina's", "Dotty's", "Brady's", "Lottie's", "Mitzi's", "Trudy's", "Babette's"
         ]
     },
 
@@ -20,12 +20,11 @@ var RenderData = {
         "Old-style",
         "Country",
         "Dutch",
-        "Bavarian",
+        "Swedish",
         "Classic",
         "Festive",
         "Holiday",
         "Signature",
-        "Heirloom",
         "Neapolitan",
         "Christmas",
         "Italian",
@@ -40,7 +39,8 @@ var RenderData = {
         "Saturday Night",
         "Old-fashioned",
         "Refrigerator",
-        "No-bake"
+        "No-bake",
+        "Irish"
     ],
 
     MainIngredients: [
@@ -132,6 +132,30 @@ var RenderData = {
             n: "Macadamia", 
             i: "2 c macadamia nuts",
             s: "Crush the macadamia nuts in a food processor, then mix with "
+        },{
+            n: "Shrimp", 
+            i: "1 lb jumbo shrimp, peeled",
+            s: "Toss the shrimp in a large bowl with "
+        },{
+            n: "Cranberry", 
+            i: "8 oz frozen cranberries",
+            s: "Thaw the cranberries under warm running water. Mix with "
+        },{
+            n: "Pineapple", 
+            i: "1 can pineapple",
+            s: "Drain the pineapple, then combine in a large bowl with "
+        },{
+            n: "Molasses", 
+            i: "1 c molasses",
+            s: "Pour the molasses into a large bowl, then mix with "
+        },{
+            n: "Mexican", 
+            i: "1 c mild salsa",
+            s: "Mix the salsa with the "
+        },{
+            n: "Turkey", 
+            i: "1 lb ground turkey",
+            s: "Brown the turkey over medium heat in a large frying pan. Add the "
         }
         
     ],
@@ -248,8 +272,232 @@ var RenderData = {
 	    },{
 		    n: "rum",
 		    i: "1/2 c rum"
+	    },{
+		    n: "rosemary",
+		    i: "2 tsp chopped rosemary"
+	    },{
+		    n: "basil",
+		    i: "3 tsp chopped basil"
+	    },{
+		    n: "olives",
+		    i: "3/4 c chopped kalamata olives"
+	    },{
+		    n: "chili flakes",
+		    i: "1 tsp dried chili flakes"
+	    },{
+		    n: "cayenne pepper",
+		    i: "Pinch of cayenne pepper"
+	    },{
+		    n: "eggs",
+		    i: "4 eggs"
+	    },{
+		    n: "scallions",
+		    i: "2 scallions"
+	    },{
+		    n: "feta",
+		    i: "8 oz feta cheese"
+	    },{
+		    n: "lentils",
+		    i: "12 oz green lentils"
+	    },{
+		    n: "kidney beans",
+		    i: "1 can kidney beans"
+	    },{
+		    n: "black beans",
+		    i: "1 can black beans"
+	    },{
+		    n: "miso",
+		    i: "1/2 c red miso"
+	    },{
+		    n: "tuna fish",
+		    i: "1 can tuna fish"
+	    },{
+		    n: "capers",
+		    i: "3 tsp capers"
+	    },{
+		    n: "fish sauce",
+		    i: "3 tsp fish sauce"
+	    },{
+		    n: "pickles",
+		    i: "4 large kosher dill pickles"
+	    },{
+		    n: "maraschino cherries",
+		    i: "3-4 maraschino cherries"
+	    },{
+		    n: "fennel seeds",
+		    i: "2 tsp fennel seeds"
+	    },{
+		    n: "honey",
+		    i: "2 tbsp honey"
+	    },{
+		    n: "mustard",
+		    i: "3 tbsp mustard"
+	    },{
+		    n: "watercress",
+		    i: "1 bunch watercress, washed and dried"
+	    },{
+		    n: "pears",
+		    i: "2 ripe pears, sliced"
+	    },{
+		    n: "sun-dried tomatoes",
+		    i: "3/4 c sun-dried tomatoes"
+	    },{
+		    n: "yeast",
+		    i: "1 tsp baker's yeast"
+	    },{
+		    n: "anchovy paste",
+		    i: "2 tbsp anchovy paste"
+	    },{
+		    n: "condensed milk",
+		    i: "1/3 cup sweetened condensed milk"
+	    },{
+		    n: "coconut milk",
+		    i: "1/2 c coconut milk"
+	    },{
+		    n: "coconut",
+		    i: "3/4 c sweetened dried coconut"
+	    },{
+		    n: "raisins",
+		    i: "1/4 cup raisins"
+	    },{
+		    n: "parsley",
+		    i: "1 bunch flat-leaf parsley"
+	    },{
+		    n: "sauerkraut",
+		    i: "1 c sauerkraut"
+	    },{
+		    n: "mint",
+		    i: "4 fresh mint leaves"
+	    },{
+		    n: "cardamom",
+		    i: "1 tbsp cardamom"
+	    },{
+		    n: "milk",
+		    i: "2 c milk"
+	    },{
+		    n: "butter",
+		    i: "1 1/4 sticks butter"
+	    },{
+		    n: "margarine",
+		    i: "6 oz margarine"
+	    },{
+		    n: "buttermilk",
+		    i: "1 1/2 c buttermilk"
+	    },{
+		    n: "heavy cream",
+		    i: "1 c heavy cream"
+	    },{
+		    n: "egg whites",
+		    i: "4 egg whites, whipped"
+	    },{
+		    n: "eggs",
+		    i: "2 eggs"
+	    },{
+		    n: "chickpeas",
+		    i: "1 can chickpeas, drained"
+	    },{
+		    n: "corn",
+		    i: "1 can sweet corn, drained"
+	    },{
+		    n: "chocolate syrup",
+		    i: "1 c chocolate syrup"
+	    },{
+		    n: "chocolate chips",
+		    i: "1 c semisweet chocolate chips"
+	    },{
+		    n: "instant coffee",
+		    i: "1 heaping tablespoon instant coffee"
+	    },{
+		    n: "mayonnaise",
+		    i: "1/4 c mayonnaise"
+	    },{
+		    n: "Worcestershire sauce",
+		    i: "Dash of Worcestershire sauce"
+	    },{
+		    n: "curry powder",
+		    i: "1/2 tbsp curry powder"
+	    },{
+		    n: "cornmeal",
+		    i: "1 cup cornmeal"
+	    },{
+		    n: "oats",
+		    i: "1/2 cup rolled oats"
+	    },{
+		    n: "zucchini",
+		    i: "1 large zucchini, diced"
+	    },{
+		    n: "horseradish",
+		    i: "1 tbsp grated horseradish"
+	    },{
+		    n: "ginger",
+		    i: "1 1/2 tbsp grated fresh ginger"
+	    },{
+		    n: "sour cream",
+		    i: "2 tbsp sour cream"
+	    },{
+		    n: "lard",
+		    i: "1/2 c lard"
+	    },{
+		    n: "water",
+		    i: "3 c water"
+	    },{
+		    n: "half and half",
+		    i: "1/3 c half and half"
+	    },{
+		    n: "celery",
+		    i: "1/2 c chopped celery"
+	    },{
+		    n: "chopped walnuts",
+		    i: "1/3 c chopped walnuts"
+	    },{
+		    n: "macaroni",
+		    i: "1 package macaroni noodles"
+	    },{
+		    n: "slivered almonds",
+		    i: "2 tbsp slivered almonds"
+	    },{
+		    n: "egg yolks",
+		    i: "6 egg yolks"
+	    },{
+		    n: "ketchup",
+		    i: "1/4 c ketchup"
+	    },{
+		    n: "lemon zest",
+		    i: "zest of 1 lemon"
+	    },{
+		    n: "pistachios",
+		    i: "1/2 c pistachios, shelled and chopped"
+	    },{
+		    n: "tomato paste",
+		    i: "2 tbsp tomato paste"
+	    },{
+		    n: "orange liqueur",
+		    i: "1/4 c orange liqueur"
+	    },{
+		    n: "walnuts",
+		    i: "1/4 c chopped walnuts"
+	    },{
+		    n: "white chocolate",
+		    i: "1/2 c white chocolate chips"
+	    },{
+		    n: "ground turkey",
+		    i: "1/2 c white chocolate chips"
 	    }
 	    
+    ],
+    
+    Instructions: [
+	    "Add ",
+		"Mix in ",
+		"Drizzle in ",
+		"Stirring to prevent clumps, slowly add ",
+		"Over medium heat, add ",
+		"Beat in ",
+		"Over low heat, saute ",
+	    "Put all ingredients in a food processor, and slowly add ",
+	    "Little by little, add the ",
+	    "Stir in ",
+	    "Combine with "
     ],
     
     
@@ -327,6 +575,20 @@ var RenderData = {
             n: "Pancakes",
             lastStep: "Mix all ingredients into a thin batter, adding water as necessary. Spread batter onto a large nonstick skillet. Cook pancake until underside is golden brown, then flip pancake. Continue to cook until lightly browned underneath, about 1 minute. Serve pancakes topped with butter, fruit, and syrup.",
             extraIngredient: "Maple syrup, for serving"
+        },{
+            n: "Balls",
+            lastStep: "Form all ingredients into loose balls. Makes a great snack.",
+        },{
+            n: "Supreme",
+            lastStep: "Carefully stir all ingredients together, then top with whipped cream.",
+            extraIngredient: "Whipped cream"
+        },{
+            n: "Smoothie",
+            lastStep: "Blend all ingredients until smooth. Enjoy chilled."
+        },{
+            n: "Nachos",
+            lastStep: "Sprinkle all ingredients over a pile of tortilla chips. Microwave until warm.",
+            extraIngredient: "1 bag tortilla chips"
         },
     ]
 };
