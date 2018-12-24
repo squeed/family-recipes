@@ -197,6 +197,10 @@ var RenderData = {
             n: "Rhubarb", 
             i: "1 lb rhubarb, cut into 3/4\" pieces",
             s: "In a medium bowl, toss rhubarb pieces with "
+        },{
+            n: "Irish", 
+            i: "8 oz Bailey's",
+            s: "In a small bowl, thoroughly blend Bailey's and "
         },
         
     ],
@@ -580,6 +584,9 @@ var RenderData = {
 	    },{
 		    n: "quinoa",
 		    i: "1 c quinoa"
+	    },{
+		    n: "Kahlua",
+		    i: "4 oz Kahlua, or other coffee liqueur"
 	    },
 	    
     ],
