@@ -46,7 +46,8 @@ body {
 .recipe-wrapper .recipe ol {
   padding: 0 1em; }
   .recipe-wrapper .recipe ol li {
-    padding: 0.2em 0 0.2em 0; }
+    padding: 0.2em 0 0.2em 0;
+    line-height: 1.3em; }
 
 .button {
   background-color: #f69712;
@@ -63,7 +64,7 @@ body {
     display: inline-block;
     padding: 0.2em 0 0 0.3em; }
 
-@media (min-width: 1001px) {
+@media (min-width: 1201px) {
   body {
     background-size: 110%;
     background-position: top right;
@@ -84,7 +85,7 @@ body {
   .recipe-wrapper .recipe-title {
     font-size: 2.2em; } }
 
-@media (max-width: 1000px) {
+@media (max-width: 1200px) {
   body {
     background-size: 200%;
     background-position: top center;

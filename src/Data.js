@@ -1,15 +1,15 @@
 var RenderData = {
     Relations: {
-        male: [ "Uncle", "Baba", "Papa", "Father", "Big", "Great-uncle", "Grandpa", "Little"],
+        male: [ "Uncle", "Papa", "Father", "Ol'", "Big", "Great-uncle", "Grandpa", "Little"],
         female: ["Auntie", "Aunt", "Great-aunt", "Grammy", "Big", "Nana", "Grandma", "Mama", "Sister", "Little"]
     },
 
     Names:  {
         male: [
-            "Nunzio's", "Gunther's", "Bobby's", "Jimbo's", "Casey's", "Peter's", "Walter's", "Mickey's", "Phil's", "Pablo's", "Skippy's", "Vito's", "Ray's", "Tony's", "Chippy's", "George's", "Nicky's", "Emerson's", "Red's", "Jimmy's", "Tom's", "Dieter's", "Hans'"
+            "Nunzio's", "Gunther's", "Bobby's", "Jimbo's", "Casey's", "Peter's", "Walter's", "Mickey's", "Phil's", "Pablo's", "Skippy's", "Vito's", "Ray's", "Tony's", "Chippy's", "George's", "Nicky's", "Emerson's", "Red's", "Jimmy's", "Tom's", "Dieter's", "Hans'", "Jürgen's"
         ],
         female: [
-            "Fiona's", "Dagmar's", "Molly's", "Alanna's", "Betsy's", "Doris'", "Jacqueline's", "Emmy's", "Eleanor's", "Clementine's", "Yolanda's", "Anne's", "Gina's", "Dotty's", "Brady's", "Lottie's", "Mitzi's", "Trudy's", "Babette's", "Kitty's", "Rosie's"
+            "Fiona's", "Dagmar's", "Molly's", "Alanna's", "Betsy's", "Doris'", "Jacqueline's", "Emmy's", "Eleanor's", "Clementine's", "Yolanda's", "Anne's", "Gina's", "Dotty's", "Brady's", "Lottie's", "Mitzi's", "Trudy's", "Babette's", "Kitty's", "Rosie's", "Wendy's"
         ]
     },
 
@@ -39,6 +39,8 @@ var RenderData = {
         "Healthy",
         "Vegan",
         "Good Ol'",
+        "Big Ol'",
+        "Big-Ass",
         "Saturday Night",
         "Old-fashioned",
         "Refrigerator",
@@ -533,6 +535,15 @@ var RenderData = {
 	    },{
 		    n: "cognac",
 		    i: "4 oz cognac"
+	    },{
+		    n: "cajun spice mix",
+		    i: "2 tsp cajun spice mix"
+	    },{
+		    n: "salt",
+		    i: "1 tsp salt"
+	    },{
+		    n: "pepper",
+		    i: "1 tsp ground black pepper"
 	    }
 	    
     ],
@@ -620,7 +631,7 @@ var RenderData = {
             lastStep: "Spoon mixture into a prepared pie crust. Bake at 350°F for 40-50 minutes until firm and slightly browned."
         },{
             n: "Cheesecake",
-            lastStep: "Add all ingredients to the cream cheese. Pour the filling into the crust, bake the cheesecake in the middle of a preheated 350°F. oven for 50 to 55 minutes, or until the center is just set, and let it cool in the pan on a rack for 5 minutes.",
+            lastStep: "Add all ingredients to the cream cheese. Pour the filling into the crust, bake the cheesecake in the middle of a preheated 350°F. oven for 50 to 55 minutes, or until the center is just set.",
             extraIngredient: "3 (8-ounce) packages cream cheese, cut into bits and softened"
         },{
             n: "Pancakes",
