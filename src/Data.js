@@ -6,10 +6,10 @@ var RenderData = {
 
     Names:  {
         male: [
-            "Nunzio's", "Gunther's", "Bobby's", "Jimbo's", "Casey's", "Peter's", "Walter's", "Mickey's", "Phil's", "Pablo's", "Skippy's", "Vito's", "Ray's", "Tony's", "Chippy's", "George's", "Nicky's", "Emerson's", "Red's", "Jimmy's", "Tom's"
+            "Nunzio's", "Gunther's", "Bobby's", "Jimbo's", "Casey's", "Peter's", "Walter's", "Mickey's", "Phil's", "Pablo's", "Skippy's", "Vito's", "Ray's", "Tony's", "Chippy's", "George's", "Nicky's", "Emerson's", "Red's", "Jimmy's", "Tom's", "Dieter's", "Hans'"
         ],
         female: [
-            "Fiona's", "Dagmar's", "Molly's", "Alanna's", "Betsy's", "Doris'", "Jacqueline's", "Emmy's", "Eleanor's", "Clementine's", "Yolanda's", "Anne's", "Gina's", "Dotty's", "Brady's", "Lottie's", "Mitzi's", "Trudy's", "Babette's"
+            "Fiona's", "Dagmar's", "Molly's", "Alanna's", "Betsy's", "Doris'", "Jacqueline's", "Emmy's", "Eleanor's", "Clementine's", "Yolanda's", "Anne's", "Gina's", "Dotty's", "Brady's", "Lottie's", "Mitzi's", "Trudy's", "Babette's", "Kitty's", "Rosie's"
         ]
     },
 
@@ -29,13 +29,16 @@ var RenderData = {
         "Christmas",
         "Italian",
         "Fancy",
+        "Sinful",
         "Famous",
         "Favorite",
         "French",
         "Southern",
         "Vegetarian",
+        "One-Pot",
         "Healthy",
         "Vegan",
+        "Good Ol'",
         "Saturday Night",
         "Old-fashioned",
         "Refrigerator",
@@ -156,7 +159,31 @@ var RenderData = {
             n: "Turkey", 
             i: "1 lb ground turkey",
             s: "Brown the turkey over medium heat in a large frying pan. Add the "
-        }
+        },{
+            n: "Whiskey", 
+            i: "12 oz bourbon whiskey",
+            s: "Pour the whiskey into a large pitcher. Stir in "
+        },{
+            n: "Lobster", 
+            i: "2 1-1/2 lb lobsters",
+            s: "Plunge lobsters into boiling water and cook for 2 minutes. Drain and place onto a large baking sheet. Cover cooked lobsters with "
+        },{
+            n: "Maple", 
+            i: "1 c maple syrup",
+            s: "In a large bowl, combine maple syrup with "
+        },{
+            n: "Salmon", 
+            i: "2 wild salmon fillets, 6 to 8 ounces each",
+            s: "Place the salmon on a rimmed baking sheet, skin down. Cover with "
+        },{
+            n: "Broccoli", 
+            i: "2 medium heads of broccoli (about 1 1/2 lb.)",
+            s: "Trim woody ends from broccoli stems. Cut off florets as close to the dark green flowers as possible and break into bite-size pieces. Add to large bowl with "
+        },{
+            n: "Couscous", 
+            i: "3 c couscous",
+            s: "Bring 6 c water to a boil. Stir in couscous, cover, and remove from heat. Let the mixture stand for 4 minutes and transfer it to a ceramic or glass bowl, breaking up any lumps with a fork and adding "
+        },
         
     ],
     
@@ -482,6 +509,30 @@ var RenderData = {
 	    },{
 		    n: "ground turkey",
 		    i: "1/2 c white chocolate chips"
+	    },{
+		    n: "figs",
+		    i: "1 c chopped figs"
+	    },{
+		    n: "orange slices",
+		    i: "1 orange, sliced"
+	    },{
+		    n: "orange zest",
+		    i: "Zest of 1 orange"
+	    },{
+		    n: "sweet and sour sauce",
+		    i: "1/4 c sweet and sour sauce"
+	    },{
+		    n: "balsamic vinegar",
+		    i: "1/4 c balsamic vinegar"
+	    },{
+		    n: "ranch dressing",
+		    i: "1/2 c ranch dressing"
+	    },{
+		    n: "artichoke hearts",
+		    i: "3 or 4 artichoke hearts, chopped"
+	    },{
+		    n: "cognac",
+		    i: "4 oz cognac"
 	    }
 	    
     ],
@@ -589,6 +640,24 @@ var RenderData = {
             n: "Nachos",
             lastStep: "Sprinkle all ingredients over a pile of tortilla chips. Microwave until warm.",
             extraIngredient: "1 bag tortilla chips"
+        },{
+            n: "Loaf",
+            lastStep: "Form mixture into a long, well-packed, approximately 5-inch-wide loaf shape on prepared baking sheet. Bake 60–75 minutes at 350°F. Serve topped with ketchup.",
+            extraIngredient: "1/2 c tomato ketchup"
+        },{
+            n: "Linguine",
+            firstStep: "Cook linguine according to directions on package and drain. Mix noodles with ",
+            lastStep: "Serve warm, topped with grated parmesan cheese.",
+            extraIngredient: "1 box linguine"
+        },{
+            n: "Vinaigrette",
+            lastStep: "Pour into a covered container and shake well. Serve over romaine lettuce.",
+            extraIngredient: "3 tbsp white vinegar"
+        },{
+            n: "Gumbo",
+            firstStep: "In a large pot, brown the sausage over medium-high heat. Transfer to a plate when cooked through.",
+            lastStep: "Return the sausage to the pan, reduce the heat to a simmer, cover, and cook for 10 minutes. Serve garnished with green onions.",
+            extraIngredient: "2 lbs pork sausage"
         },
     ]
 };
