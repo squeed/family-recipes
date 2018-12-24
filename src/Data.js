@@ -538,17 +538,17 @@ var RenderData = {
     ],
     
     Instructions: [
-	    "Add ",
-		"Mix in ",
-		"Drizzle in ",
-		"Stirring to prevent clumps, slowly add ",
-		"Over medium heat, add ",
-		"Beat in ",
-		"Over low heat, saute ",
-	    "Put all ingredients in a food processor, and slowly add ",
-	    "Little by little, add the ",
-	    "Stir in ",
-	    "Combine with "
+		"Mix in %s and %s.",
+		"Slowly drizzle in the %s and %s.",
+        "In a separate bowl, mash %s and %s together with a fork, then fold in.",
+		"Stirring constantly to prevent clumps, slowly add in the %s before the %s.",
+		//"Over medium heat, add ",
+		//"Beat in ",
+		"Sauté with %s over high heat. When browned, deglaze with %s.",
+        "Chop finely in a food processor for 2-3 minutes, then briefly pulse the %s and %s.",
+	    //"Little by little, add the ",
+	    //"Stir in ",
+	    //"Combine with "
     ],
     
     

@@ -1,7 +1,8 @@
 import seedrandom from 'seedrandom';
 import RenderData from './Data.js';
+import sprintf from 'sprintf-js';
 
-var numIngredients = 4;
+var numIngredients = 6;
 
 class RecipeData {
     Id;
@@ -31,7 +32,7 @@ class RecipeData {
         this.Modifier = rng.chooseList(RenderData.Modifiers);
         this.MainIngredient = rng.chooseList(RenderData.MainIngredients);
         this.SecondaryIngredients = rng.chooseN(RenderData.SecondaryIngredients, numIngredients);
-        this.Instructions = rng.chooseN(RenderData.Instructions, numIngredients);
+        this.Instructions = rng.chooseN(RenderData.Instructions, (numIngredients / 2) - 1);
         
         this.Thing = rng.chooseList(RenderData.Things);
         
@@ -40,24 +41,27 @@ class RecipeData {
         this.Ingredients = [
             this.MainIngredient.i
         ];
-        for (var j=0; j < this.SecondaryIngredients.length; j++) {
-	        this.Ingredients.push(this.SecondaryIngredients[j].i);
+        for (let i=0; i < this.SecondaryIngredients.length; i++) {
+            this.Ingredients.push(this.SecondaryIngredients[i].i);
         }
         if(this.Thing.extraIngredient != null){
-	        this.Ingredients.unshift(this.Thing.extraIngredient);
+            this.Ingredients.unshift(this.Thing.extraIngredient);
         } 
 
-		this.Steps = [];
-		
-		// if there is a first step...
-		if(this.Thing.firstStep != null){
-			this.Steps.unshift(this.Thing.firstStep);
-		}
-		this.Steps.push(this.MainIngredient.s + this.SecondaryIngredients[0].n + ".");
-		for(var k = 0; k < this.SecondaryIngredients.length; k++){
-			this.Steps.push(this.Instructions[k] + " " + this.SecondaryIngredients[k].i + ".")
-		}
-		this.Steps.push(this.Thing.lastStep);        
+        this.Steps = [];
+        
+        // if there is a first step...
+        if(this.Thing.firstStep != null){
+            this.Steps.unshift(this.Thing.firstStep);
+        }
+        this.Steps.push(this.MainIngredient.s + this.SecondaryIngredients[0].n + ".");
+        for(let i = 0; i < this.Instructions.length; i++){
+            this.Steps.push(sprintf.sprintf(
+                this.Instructions[i],
+                this.SecondaryIngredients[(i*2)+2].n,
+                this.SecondaryIngredients[(i*2)+3].n));
+        }
+        this.Steps.push(this.Thing.lastStep);
     }
 }
 
