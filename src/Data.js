@@ -1,7 +1,7 @@
 var RenderData = {
     Relations: {
-        male: [ "Uncle", "Papa", "Father", "Ol'", "Big", "Great-uncle", "Grandpa", "Little"],
-        female: ["Auntie", "Aunt", "Great-aunt", "Grammy", "Big", "Nana", "Grandma", "Mama", "Sister", "Little", "Mama"]
+        male: [ "Uncle", "Papa", "Father", "Ol'", "Big", "Great-uncle", "Grandpa", "Little", "Cousin"],
+        female: ["Auntie", "Aunt", "Great-aunt", "Big", "Nana", "Grandma", "Mama", "Sister", "Little", "Mama", "Cousin", "Ol'"]
     },
 
     Names:  {
@@ -53,7 +53,8 @@ var RenderData = {
         "Refrigerator",
         "No-bake",
         "California-Style",
-        "New England"
+        "New England",
+        "Decadent"
     ],
 
     MainIngredients: [
@@ -221,7 +222,28 @@ var RenderData = {
             n: "Marshmallow", 
             i: "2 c miniature marshmallows",
             s: "Melt miniature marshmallows over low heat, and slowly stir in "
+        },{
+            n: "Kale", 
+            i: "1 large bunch kale",
+            s: "Wash kale and remove the center ribs. Cut into ribbons and toss with "
+        },{
+            n: "Elderflower", 
+            i: "1/2 c elderflower syrup",
+            s: "In a large bowl, mix elderflower syrup with "
+        },{
+            n: "Lingonberry", 
+            i: "1 c lingonberry jam",
+            s: "In a large bowl, mash together lingonberry jam and "
+        },{
+            n: "Sesame", 
+            i: "1/4 c sesame oil",
+            s: "In a medium bowl, mix sesame oil with "
+        },{
+            n: "Seafood", 
+            i: "10-15 scallops, muscles removed",
+            s: "Saute scallops over medium heat along with "
         },
+        
         
     ],
     
@@ -667,6 +689,42 @@ var RenderData = {
 	    },{
 		    n: "tonic water",
 		    i: "2 c tonic water"
+	    },{
+		    n: "liverwurst",
+		    i: "8 oz liverwurst"
+	    },{
+		    n: "chorizo",
+		    i: "1/2 lb chorizo"
+	    },{
+		    n: "green olives",
+		    i: "6-7 green olives, without pits"
+	    },{
+		    n: "apple cider",
+		    i: "2 c apple cider"
+	    },{
+		    n: "lime juice",
+		    i: "Juice of 4 limes"
+	    },{
+		    n: "lime wedges",
+		    i: "1 lime, cut into wedges"
+	    },{
+		    n: "grapes",
+		    i: "1 large bunch green grapes"
+	    },{
+		    n: "five-spice powder",
+		    i: "2 tsp Chinese five-spice powder"
+	    },{
+		    n: "rice",
+		    i: "2 c basmati rice"
+	    },{
+		    n: "rice",
+		    i: "1 1/2 c long-grain brown rice"
+	    },{
+		    n: "vodka",
+		    i: "4 oz vodka, chilled"
+	    },{
+		    n: "gin",
+		    i: "1 tbsp gin"
 	    }
 	    
     ],
@@ -849,6 +907,11 @@ var RenderData = {
             firstStep: "Preheat oven to 350°F.",
             lastStep: "Layer mixture in baking dish with cream of mushroom soup. Bake at 350°F for 60-70 minutes or until top is crunchy, golden, and slightly puffed.",
             extraIngredient: "1 can cream of mushroom soup"
+        },{
+            n: "Schnitzel",
+            firstStep: "Cut the veal into thin steaks.",
+            lastStep: "Coat the veal with entire mixture, then fry in 1/4 c oil until golden brown and crispy, about 5 minutes on each side.",
+            extraIngredient: "2 lbs veal"
         },
     ]
 };
