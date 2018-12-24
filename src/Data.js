@@ -6,10 +6,10 @@ var RenderData = {
 
     Names:  {
         male: [
-            "Nunzio's", "Gunther's", "Bobby's", "Jimbo's", "Casey's", "Peter's", "Walter's", "Mickey's", "Phil's", "Pablo's", "Skippy's", "Vito's", "Ray's", "Tony's", "Chippy's", "George's", "Nicky's", "Emerson's", "Fred's", "Jimmy's", "Tom's", "Dieter's", "Hans'", "Jürgen's", "Shlomo's", "Bruce's"
+            "Nunzio's", "Gunther's", "Bobby's", "Jimbo's", "Casey's", "Peter's", "Walter's", "Mickey's", "Phil's", "Pablo's", "Skippy's", "Vito's", "Ray's", "Tony's", "Chippy's", "George's", "Nicky's", "Emerson's", "Fred's", "Jimmy's", "Tom's", "Dieter's", "Hans'", "Jürgen's", "Shlomo's", "Bruce's", "Feeney's", "Kyle's", "Sven's", "Harold's", "Howard's"
         ],
         female: [
-            "Fiona's", "Dagmar's", "Molly's", "Alanna's", "Betsy's", "Doris'", "Jacqueline's", "Emma's", "Eleanor's", "Clementine's", "Yolanda's", "Anne's", "Gina's", "Dotty's", "Brady's", "Lottie's", "Mitzi's", "Trudy's", "Babette's", "Kitty's", "Rosie's", "Wendy's", "Bernadette's", "Betty's", "Sally's"
+            "Fiona's", "Dagmar's", "Molly's", "Alanna's", "Betsy's", "Doris'", "Jacqueline's", "Emma's", "Eleanor's", "Clementine's", "Yolanda's", "Anne's", "Gina's", "Dotty's", "Brady's", "Lottie's", "Mitzi's", "Trudy's", "Babette's", "Kitty's", "Rosie's", "Wendy's", "Bernadette's", "Betty's", "Sally's", "Julie's", "Louise's" 
         ]
     },
 
