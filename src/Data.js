@@ -16,6 +16,8 @@ var RenderData = {
     Modifiers: [
         "Spicy",
         "Easy",
+        "Quick",
+        "Quick and Easy",
         "Never-Fail",
         "Old-style",
         "Country",
@@ -41,11 +43,17 @@ var RenderData = {
         "Good Ol'",
         "Big Ol'",
         "Big-Ass",
+        "Tasty",
+        "Good-Ass",
+        "Traditional",
+        "Usual",
+        "Addictive",
         "Saturday Night",
         "Old-fashioned",
         "Refrigerator",
         "No-bake",
-        "Irish"
+        "California-Style",
+        "New England"
     ],
 
     MainIngredients: [
