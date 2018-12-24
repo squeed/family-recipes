@@ -117,7 +117,7 @@ var RenderData = {
         },{
             n: "Mushroom", 
             i: "16 oz button mushrooms",
-            s: "Clean and slice mushrooms, removing stems. In a salad bowl, toss mushrooms with "
+            s: "Clean and slice mushrooms, removing stems. Toss with "
         },{
             n: "Green Bean", 
             i: "2 lbs green beans",
@@ -185,7 +185,7 @@ var RenderData = {
         },{
             n: "Broccoli", 
             i: "2 medium heads of broccoli (about 1 1/2 lb.)",
-            s: "Trim woody ends from broccoli stems. Cut off florets as close to the dark green flowers as possible and break into bite-size pieces. Add to large bowl with "
+            s: "Break broccoli into bite-size pieces. Add to large bowl with "
         },{
             n: "Couscous", 
             i: "3 c couscous",
