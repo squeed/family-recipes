@@ -775,7 +775,6 @@ var RenderData = {
 		"Add %s and %s, and toss well.",
 		"Add %s and %s.",
 		"Carefully stir in %s and %s.",
-		"Slowly add %s and %s.",
 		"Blend %s and %s on high speed, then add to mixture.",
 		"Add %s and %s, sprinkling in salt and pepper to taste.",
 		"Put %s and %s between two pieces of waxed paper, and pound with a rolling pin until crushed.",

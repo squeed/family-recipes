@@ -4,18 +4,6 @@ import './App.css';
 import RecipeData from "./Recipe";
 import {v4 as uuid} from 'uuid';
 
-function getID(){
-    let id = window.location.search;
-    if (id === "" || id === "?" ){
-        id = uuid();
-        let url = window.location.pathname + "?" + id;
-        window.history.replaceState({}, "recipe", url);
-    } else {
-        id = id.substring(1);
-    }
-    return id;
-}
-
 class App extends Component {
     constructor(props){
         super(props);
