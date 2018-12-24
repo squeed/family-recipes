@@ -14,6 +14,8 @@ var RenderData = {
     },
 
     Modifiers: [
+        "Low-carb",
+        "New England",
         "Spicy",
         "Easy",
         "Quick",
@@ -248,7 +250,10 @@ var RenderData = {
     ],
     
     SecondaryIngredients: [
-	    {
+        {
+            n: "corn starch",
+            i: "1 tsp corn starch, dissolved in 1 tbsp water"
+        },{
 		    n: "flour",
 		    i: "2 c all-purpose flour"
 	    },{
@@ -780,7 +785,9 @@ var RenderData = {
 		"Rub %s with %s, and leave to marinate at least 20 minutes.",
 		"Sauté with %s over high heat. When browned, deglaze with %s.",
         "Chop %s and %s finely in a food processor for 2-3 minutes.",
-	    ],
+        "Simmer with %s until volume reduced by half, then add the %s.",
+        "Dip the %s in the %s, then add in.",
+    ],
     
     
     Things: [
