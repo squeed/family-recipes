@@ -757,7 +757,7 @@ var RenderData = {
 		"Beat together %s and %s on high speed until light and fluffy.",
 		"Beat together %s and %s on high speed until soft peaks form.",
 		"Mix %s and %s until just combined; do not overmix.",
-		"Slowly add % to %s in a medium-size bowl.",
+		"Slowly add %s to %s in a medium-size bowl.",
 		"Mix together %s and %s until smooth.",
 		"Saute %s and %s over low heat until light brown and fragrant.",
 		"Flash-fry %s and %s in 3 tbsp butter until crispy.",
