@@ -52,19 +52,19 @@ var RenderData = {
         {
             n: "Tomato", 
             i: "15 ripe tomatoes",
-            s: "In a blender, puree the tomato and the "
+            s: "In a blender, puree tomato and "
         },{
             n: "Chicken", 
             i: "1 medium-size chicken",
-            s: "In a large bowl, toss the chicken with the "
+            s: "In a large bowl, toss chicken with "
         },{
             n: "Banana", 
             i: "3 ripe bananas",
-            s: "Peel the bananas, and mash them together with the "
+            s: "Peel bananas, and mash them together with "
         },{
             n: "Asparagus", 
             i: "2 lbs green asparagus",
-            s: "Cut ends and tips off the asparagus. In a large roasting pan, toss with "
+            s: "Cut ends and tips off asparagus. In a large roasting pan, toss with "
         },{
             n: "Spaghetti", 
             i: "1 box spaghetti",
@@ -120,47 +120,47 @@ var RenderData = {
         },{
             n: "Jalapeño", 
             i: "8 jalapeño peppers",
-            s: "Seed and dice the peppers. Mix with "
+            s: "Seed and dice peppers. Mix with "
         },{
             n: "Strawberry", 
             i: "1 lb strawberries",
-            s: "Wash and slice the strawberries, then combine with "
+            s: "Wash and slice strawberries, then combine with "
         },{
             n: "Gorgonzola", 
             i: "6 oz gorgonzola",
-            s: "Crumble the gorgonzola, and mix with "
+            s: "Crumble gorgonzola, and mix with "
         },{
             n: "Macadamia", 
             i: "2 c macadamia nuts",
-            s: "Crush the macadamia nuts in a food processor, then mix with "
+            s: "Crush macadamia nuts in a food processor, then mix with "
         },{
             n: "Shrimp", 
             i: "1 lb jumbo shrimp, peeled",
-            s: "Toss the shrimp in a large bowl with "
+            s: "Toss shrimp in a large bowl with "
         },{
             n: "Cranberry", 
             i: "8 oz frozen cranberries",
-            s: "Thaw the cranberries under warm running water. Mix with "
+            s: "Thaw cranberries under warm running water. Mix with "
         },{
             n: "Hawaiian", 
             i: "1 can pineapple",
-            s: "Drain the pineapple, then combine in a large bowl with "
+            s: "Drain pineapple, then combine in a large bowl with "
         },{
             n: "Molasses", 
             i: "1 c molasses",
-            s: "Pour the molasses into a large bowl, then mix with "
+            s: "Pour molasses into a large bowl, then mix with "
         },{
             n: "Mexican", 
             i: "1 c pico de gallo",
-            s: "Mix the salsa with the "
+            s: "Mix salsa with "
         },{
             n: "Turkey", 
             i: "1 lb ground turkey",
-            s: "Brown the turkey over medium heat in a large frying pan. Add the "
+            s: "Brown turkey over medium heat in a large frying pan. Add "
         },{
             n: "Kentucky", 
             i: "12 oz bourbon whiskey",
-            s: "Pour the whiskey into a large pitcher. Stir in "
+            s: "Pour whiskey into a large pitcher. Stir in "
         },{
             n: "Lobster", 
             i: "2 1-1/2 lb lobsters",
@@ -172,7 +172,7 @@ var RenderData = {
         },{
             n: "Salmon", 
             i: "2 wild salmon fillets, 6 to 8 ounces each",
-            s: "Place the salmon on a rimmed baking sheet, skin down. Cover with "
+            s: "Place salmon on a rimmed baking sheet, skin down. Cover with "
         },{
             n: "Broccoli", 
             i: "2 medium heads of broccoli (about 1 1/2 lb.)",
@@ -180,15 +180,15 @@ var RenderData = {
         },{
             n: "Couscous", 
             i: "3 c couscous",
-            s: "Bring 6 c water to a boil. Stir in couscous, cover, and remove from heat. Let the mixture stand for 4 minutes and transfer it to a ceramic or glass bowl, breaking up any lumps with a fork and adding "
+            s: "Bring 6 c water to a boil. Stir in couscous and remove from heat. Transfer to bowl, breaking up lumps with a fork and adding "
         },{
             n: "Peach", 
             i: "3-4 ripe peaches",
-            s: "Wash the peaches, remove pits, and cut into chunks. Combine with "
+            s: "Wash peaches, remove pits, and cut into chunks. Combine with "
         },{
             n: "Wasabi", 
             i: "2 tbsp wasabi",
-            s: "Put the wasabi in a medium-size bowl, and mix thoroughly with "
+            s: "Put wasabi in a medium-size bowl, and mix thoroughly with "
         },{
             n: "Marzipan", 
             i: "6 oz marzipan",
@@ -201,6 +201,18 @@ var RenderData = {
             n: "Irish", 
             i: "8 oz Bailey's",
             s: "In a small bowl, thoroughly blend Bailey's and "
+        },{
+            n: "Quinoa", 
+            i: "2 c quinoa",
+            s: "Cook quinoa according to instructions on package. When cool, fluff with a fork and add "
+        },{
+            n: "Grapefruit", 
+            i: "1/2 c grapefruit juice",
+            s: "In a large bowl, mix grapefruit juice with "
+        },{
+            n: "Marshmallow", 
+            i: "2 c miniature marshmallows",
+            s: "Melt miniature marshmallows over low heat, and slowly stir in "
         },
         
     ],
@@ -252,8 +264,8 @@ var RenderData = {
 		    n: "broth",
 		    i: "2 c chicken broth"
 	    },{
-		    n: "cream of mushroom soup",
-		    i: "1 can cream of mushroom soup"
+		    n: "tomato soup",
+		    i: "1 can tomato soup"
 	    },{
 		    n: "cheese",
 		    i: "2 c grated cheddar cheese"
@@ -484,7 +496,7 @@ var RenderData = {
 		    i: "1 tbsp grated horseradish"
 	    },{
 		    n: "ginger",
-		    i: "1 1/2 tbsp grated fresh ginger"
+		    i: "1 1/2 tsp grated fresh ginger"
 	    },{
 		    n: "sour cream",
 		    i: "2 tbsp sour cream"
@@ -513,6 +525,9 @@ var RenderData = {
 		    n: "egg yolks",
 		    i: "6 egg yolks"
 	    },{
+		    n: "vegetable oil",
+		    i: "1/4 c vegetable oil"
+	    },{
 		    n: "ketchup",
 		    i: "1/4 c ketchup"
 	    },{
@@ -534,8 +549,8 @@ var RenderData = {
 		    n: "white chocolate",
 		    i: "1/2 c white chocolate chips"
 	    },{
-		    n: "ground turkey",
-		    i: "20 oz ground turkey"
+		    n: "corned beef",
+		    i: "1/4 lb corned beef"
 	    },{
 		    n: "figs",
 		    i: "1 c chopped figs"
@@ -582,46 +597,124 @@ var RenderData = {
 		    n: "chocolate sauce",
 		    i: "2 tbsp chocolate sauce"
 	    },{
-		    n: "quinoa",
-		    i: "1 c quinoa"
+		    n: "cloves",
+		    i: "1/2 tsp ground cloves"
+	    },{
+		    n: "whole wheat flour",
+		    i: "2 1/2 c whole wheat flour"
 	    },{
 		    n: "Kahlua",
 		    i: "4 oz Kahlua, or other coffee liqueur"
-	    },
+	    },{
+		    n: "cumin",
+		    i: "1 tsp ground cumin"
+	    },{
+		    n: "yogurt",
+		    i: "1 c plain yogurt"
+	    },{
+		    n: "zucchini",
+		    i: "1 large zucchini, diced"
+	    },{
+		    n: "rosemary",
+		    i: "1 tbsp chopped rosemary"
+	    },{
+		    n: "oregano",
+		    i: "1 tbsp chopped oregano"
+	    },{
+		    n: "thyme",
+		    i: "2 tsp chopped thyme"
+	    },{
+		    n: "basil",
+		    i: "4 fresh basil leaves"
+	    },{
+		    n: "bay leaves",
+		    i: "2 bay leaves"
+	    },{
+		    n: "sweet corn",
+		    i: "4 ears sweet corn"
+	    },{
+		    n: "ground chile",
+		    i: "1 tsp ground ancho chile powder"
+	    },{
+		    n: "almond butter",
+		    i: "1/4 c almond butter"
+	    },{
+		    n: "soy milk",
+		    i: "1 c unsweetened soy milk"
+	    },{
+		    n: "peppermint extract",
+		    i: "1 tsp peppermint extract"
+	    },{
+		    n: "ice water",
+		    i: "1/4 c ice water"
+	    },{
+		    n: "ice cubes",
+		    i: "8-10 ice cubes"
+	    },{
+		    n: "basil",
+		    i: "4 fresh basil leaves"
+	    },{
+		    n: "prosciutto",
+		    i: "3-4 slices prosciutto"
+	    },{
+		    n: "tonic water",
+		    i: "2 c tonic water"
+	    }
 	    
     ],
     
     Instructions: [
 		"Mix in %s and %s.",
-		"Slowly drizzle in the %s and %s.",
+		"Slowly drizzle in %s and %s.",
         "In a separate bowl, mash %s and %s together with a fork, then fold together.",
 		"Stirring constantly to prevent clumps, slowly add %s to %s.",
 		"Mash together %s and %s.",
-		"Add %s to %s, and stir to coat.",
+		"Add %s and %s, and stir to coat.",
 		"Pour %s and %s into a saucepan, and bring to a boil.",
-		"Add the %s and %s, stirring frequently.",
+		"Add %s and %s, stirring frequently.",
 		"Combine %s and %s.",
 		"Combine %s and %s, scraping the bowl with a spatula.",
 		"Mix %s and %s on high speed for 1-2 minutes.",
 		"Saute %s with %s over medium heat until fragrant.",
-		"Fry %s in butter until golden brown, then add %s.",
+		"Fry %s in 1 tbsp butter until golden brown, then remove from heat and add %s.",
 		"Gently combine %s and %s.",
 		"Quickly mix %s with %s.",
 		"Pour %s over %s and let stand 10 minutes.",
-		"Knead together %s and %s, cover with plastic wrap, and refrigerate for at least 1 hour.",
+		"Knead together %s and %s, cover with plastic wrap. Refrigerate for at least an hour or until firm.",
 		"Whisk together %s and %s.", 
 		"Slowly stir %s into %s.",
 		"Stirring constantly, saute %s and %s until translucent.",
 		"Simmer %s and %s in a small saucepan until most of the liquid is gone.",
 		"Mix %s and %s well, and allow to sit overnight.",
-		//"Over medium heat, add ",
-		//"Beat in ",
+		"Coat %s with %s.",
+		"Beat together %s and %s on high speed until creamy.",
+		"Beat together %s and %s on high speed until light and fluffy.",
+		"Beat together %s and %s on high speed until soft peaks form.",
+		"Mix %s and %s until just combined; do not overmix.",
+		"Slowly add % to %s in a medium-size bowl.",
+		"Mix together %s and %s until smooth.",
+		"Saute %s and %s over low heat until light brown and fragrant.",
+		"Flash-fry %s and %s in 3 tbsp butter until crispy.",
+		"Spread %s on a baking sheet, and distribute %s evenly on top.",
+		"Toast %s and %s over low heat until just brown.",
+		"Mix together %s and %s, wrap tightly in plastic wrap, and refrigerate overnight.",
+		"Saute %s and %s, stirring occasionally.",
+		"Plunge %s and %s into boiling water for 1 minute, then leave to drain on a paper towel.",
+		"Whisk %s in a small bowl to remove lumps, then pour over %s.",
+		"Add %s and %s, and toss well.",
+		"Add %s and %s.",
+		"Carefully stir in %s and %s.",
+		"Slowly add %s and %s.",
+		"Blend %s and %s on high speed, then add to mixture.",
+		"Add %s and %s, sprinkling in salt and pepper to taste.",
+		"Put %s and %s between two pieces of waxed paper, and pound with a rolling pin until crushed.",
+		"Cook %s and %s over high heat until liquid is reduced and the pan is deglazed.",
+		"Stir together %s and %s on high heat until thickened.",
+		"Bring %s and %s to a full rolling boil for 6-8 minutes, stirring constantly.",
+		"Rub %s with %s, and leave to marinate at least 20 minutes.",
 		"Sauté with %s over high heat. When browned, deglaze with %s.",
-        "Chop finely in a food processor for 2-3 minutes, then briefly pulse the %s and %s.",
-	    //"Little by little, add the ",
-	    //"Stir in ",
-	    //"Combine with "
-    ],
+        "Chop %s and %s finely in a food processor for 2-3 minutes.",
+	    ],
     
     
     Things: [
@@ -674,7 +767,7 @@ var RenderData = {
             extraIngredient: "2 c whipped cream"
         },{
             n: "Bruschetta",
-            lastStep: "Toast the baguette slices and arrange on a platter. Add the topping, and garnish with basil if desired. Serve immediately.",
+            lastStep: "Toast the baguette slices and arrange on a platter. Top with spoonfuls of mixture, garnishing with basil leaves if desired.",
             extraIngredient: "1 baguette, thinly sliced"
         },{
             n: "Biscuits",
@@ -696,7 +789,7 @@ var RenderData = {
             extraIngredient: "3 (8-ounce) packages cream cheese, cut into bits and softened"
         },{
             n: "Pancakes",
-            lastStep: "Mix all ingredients into a thin batter, adding water as necessary. Spread batter onto a large nonstick skillet. Cook pancake until underside is golden brown, then flip pancake. Continue to cook until lightly browned underneath, about 1 minute. Serve pancakes topped with butter, fruit, and syrup.",
+            lastStep: "Mix all ingredients into a thin batter. Spread 1/4 c batter onto a large nonstick skillet. Cook pancake until underside is golden brown. Serve pancakes topped with butter, fruit, and syrup.",
             extraIngredient: "Maple syrup, for serving"
         },{
             n: "Balls",
@@ -714,7 +807,7 @@ var RenderData = {
             extraIngredient: "1 bag tortilla chips"
         },{
             n: "Loaf",
-            lastStep: "Form mixture into a long, well-packed, approximately 5-inch-wide loaf shape on prepared baking sheet. Bake 60–75 minutes at 350°F. Serve topped with ketchup.",
+            lastStep: "Form mixture into an approximately 5-inch-wide loaf shape on prepared baking sheet. Bake 60–75 minutes at 350°F. Serve topped with ketchup.",
             extraIngredient: "1/2 c tomato ketchup"
         },{
             n: "Linguine",
@@ -728,8 +821,26 @@ var RenderData = {
         },{
             n: "Gumbo",
             firstStep: "In a large pot, brown the sausage over medium-high heat. Transfer to a plate when cooked through.",
-            lastStep: "Return the sausage to the pan, reduce the heat to a simmer, cover, and cook for 10 minutes. Serve garnished with green onions.",
+            lastStep: "Return the sausage to the pot, add the rest of the mixture, cover, and cook for 10 minutes. Serve garnished with green onions.",
             extraIngredient: "2 lbs pork sausage"
+        },{
+            n: "Brownies",
+            extraIngredient: "1 c unsweetened cocoa",
+            firstStep: "Preheat oven to 350°F.",
+            lastStep: "Stir unsweetened cocoa into mixture, and pour into cake pan. Bake at 350°F for 20-25 minutes until crispy at edges but still chewy in center. Serve with vanilla ice cream."
+        },{
+            n: "Treats",
+            firstStep: "Preheat oven to 350°F.",
+            lastStep: "Roll mixture into 1\" balls. Space evenly on baking sheet, and bake at 350°F for 10-12 minutes or until golden brown."
+        },{
+            n: "Pudding",
+            lastStep: "Whip mixture until rich and creamy. Spoon into dessert glasses. Garnish with fresh mint if desired.",
+            extraIngredient: "Fresh mint leaves (optional)"
+        },{
+            n: "Surprise",
+            firstStep: "Preheat oven to 350°F.",
+            lastStep: "Layer mixture in baking dish with cream of mushroom soup. Bake at 350°F for 60-70 minutes or until top is crunchy, golden, and slightly puffed.",
+            extraIngredient: "1 can cream of mushroom soup"
         },
     ]
 };

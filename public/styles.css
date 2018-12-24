@@ -50,10 +50,11 @@ body {
   background-color: #f69712;
   color: #f4f5f2;
   display: inline-block;
-  padding: 0.4em 0.9em;
+  padding: 0.7em 1.2em;
   margin: 1.5em 0;
   cursor: pointer;
-  border-radius: .2em; }
+  border-radius: .2em;
+  font-weight: 700; }
   .button:hover {
     background-color: #d47500; }
   .button .fa {
@@ -63,24 +64,32 @@ body {
 
 @media (min-width: 1201px) {
   body {
-    background-size: 110%;
+    background-size: 100%;
     background-position: top right;
     background-image: url("orange-slices.jpeg"); }
     body .popup {
       padding: 1em 2em;
       height: 80%;
       width: 70%;
-      margin: 1% 10%; }
+      margin: 1% 10%;
+      z-index: 101; }
       body .popup #signature {
         height: 6em; }
     body .megawrapper {
       padding: 0;
-      margin: 2% 40% 10% 10%; }
+      margin: 2% 40% 1% 5%; }
   .fade {
-    height: 120%;
-    width: 100%; }
-  .recipe-wrapper .recipe-title {
-    font-size: 2.2em; } }
+    height: 100%;
+    width: 100%;
+    z-index: 100; }
+  .recipe-wrapper {
+    font-size: .9em; }
+    .recipe-wrapper .recipe-title {
+      font-size: 2.2em; }
+  #next-button {
+    position: fixed;
+    bottom: 10px;
+    z-index: -1; } }
 
 @media (max-width: 1200px) {
   body {
