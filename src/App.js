@@ -1,14 +1,12 @@
 import React, { Component } from 'react';
-//import logo from './logo.svg';
 import './App.css';
 import RecipeData from "./Recipe";
-import {v4 as uuid} from 'uuid';
 
 class App extends Component {
     constructor(props){
         super(props);
         this.state = {
-            recipeID: uuid()
+            recipeID: Math.floor(Math.random() * (2 << 20))
         };
     }
 
@@ -18,13 +16,15 @@ class App extends Component {
             <div className="recipe">
                <Recipe recipeID={this.state.recipeID} /> 
             </div>
-            <div id="next-button" className="button" onClick={() => this.newID()} >Next Recipe <span className="fa fa-chevron-right"></span></div>  
+            <div id="next-button" className="button" onClick={() => this.newID()} >Generate Another Recipe <span className="fa fa-chevron-right"></span></div>  
             </div>
         );
     }
 
     newID() {
-        this.setState({recipeID: uuid()});
+        this.setState({
+            recipeID: Math.floor(Math.random() * (2 << 20))
+        });
     }
 }
 
@@ -41,7 +41,7 @@ class Recipe extends Component {
         );
         return (
             <div className='recipe-wrapper'>
-                
+                <div className="recipe-id">Recipe #{this.props.recipeID}:</div>
                 <div className='recipe-title'>{r.Relation} {r.Name} {r.Modifier} {r.MainIngredient.n} {r.Thing.n}</div>
                 <div className='ingredients-wrapper'>
                     <ul>
