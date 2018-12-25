@@ -1,13 +1,13 @@
 {
-  "main.css": "/xmas/2018/static/css/main.c38e3d26.chunk.css",
-  "main.js": "/xmas/2018/static/js/main.421a5501.chunk.js",
-  "main.js.map": "/xmas/2018/static/js/main.421a5501.chunk.js.map",
-  "static/js/1.59d12e3e.chunk.js": "/xmas/2018/static/js/1.59d12e3e.chunk.js",
-  "static/js/1.59d12e3e.chunk.js.map": "/xmas/2018/static/js/1.59d12e3e.chunk.js.map",
+  "main.css": "/xmas/2018/static/css/main.4c6ef4d2.chunk.css",
+  "main.js": "/xmas/2018/static/js/main.c90d9b1a.chunk.js",
+  "main.js.map": "/xmas/2018/static/js/main.c90d9b1a.chunk.js.map",
+  "static/js/1.55b5b075.chunk.js": "/xmas/2018/static/js/1.55b5b075.chunk.js",
+  "static/js/1.55b5b075.chunk.js.map": "/xmas/2018/static/js/1.55b5b075.chunk.js.map",
   "runtime~main.js": "/xmas/2018/static/js/runtime~main.06437a2d.js",
   "runtime~main.js.map": "/xmas/2018/static/js/runtime~main.06437a2d.js.map",
-  "static/css/main.c38e3d26.chunk.css.map": "/xmas/2018/static/css/main.c38e3d26.chunk.css.map",
+  "static/css/main.4c6ef4d2.chunk.css.map": "/xmas/2018/static/css/main.4c6ef4d2.chunk.css.map",
   "index.html": "/xmas/2018/index.html",
-  "precache-manifest.9e0bd012dfbe9205f36a8a042df13f11.js": "/xmas/2018/precache-manifest.9e0bd012dfbe9205f36a8a042df13f11.js",
+  "precache-manifest.4fd418a9f9bb0b2eaaf8977997739c9d.js": "/xmas/2018/precache-manifest.4fd418a9f9bb0b2eaaf8977997739c9d.js",
   "service-worker.js": "/xmas/2018/service-worker.js"
 }
